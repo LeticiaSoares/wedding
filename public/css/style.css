@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
+h1 {
+  font-weight: 700;!important;
+  font-size: 47px;!important;
+}
 
 ::-webkit-selection {
   color: #fff;
@@ -774,7 +778,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery-list li.one-third {
-  width: 32.3%;
+  width:100%;
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
@@ -905,7 +909,8 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 47px;
+    font-weight: 700;
   }
 }
 #fh5co-header .display-tc h2,
@@ -1077,10 +1082,26 @@ form label {
     padding: 3em 0;
   }
 }
-
-.fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+.lista-casamento{
+  line-height: 1.5;
+  font-weight: 500;
+  color: #F2B73F;
+  font-size: 16px;
+  font-family: "Work Sans", Arial, sans-serif;
+  text-align: center;
+  display: block;
 }
+.lista-casamento:hover {
+  color:#b93d3a;
+  cursor: pointer;
+}
+.fh5co-section-gray {
+  background: #611a1a;
+}
+.fh5co-section-write {
+  background: #ffffff;
+}
+
 
 .couple-wrap {
   width: 90%;
@@ -1234,7 +1255,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: -1em;
   color:#F2B73F
 }
 .our-history{
@@ -1492,7 +1513,7 @@ form label {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: #7b5b13;
+  background: #b58c3c;
   top: 0;
   right: 0;
   top: 0;
@@ -1516,10 +1537,13 @@ form label {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  font-weight: 700;
+  height: 71px;
+  display: block;
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #940e0e;
 }
 #fh5co-offcanvas ul {
   padding: 0;
@@ -1905,6 +1929,12 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+#como-chegar {
+  display: block;
+  position: relative;
+  width:  100%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
